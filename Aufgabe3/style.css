@@ -4,3 +4,44 @@ body{
 h1, img {
     text-align: center;
 }
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 14,5%;
+}
+li {
+    float: right;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, p {
+    font-family: sans-serif;
+}
+a:hover {
+    color: cyan;
+}
+#link1 {
+    color: cyan;
+}
+#link2 {
+    color: cyan;
+}
+#link3 {
+    color: cyan;
+}

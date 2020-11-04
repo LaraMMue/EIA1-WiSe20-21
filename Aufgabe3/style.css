@@ -1,28 +1,53 @@
 .kreis {
-    background: red;
+    background: skyblue;
     border-radius: 50%;
     width: 1000px;
     height: 1000px;
-    margin-top: -600px;
+    margin-top: -450px;
     margin-left: 25%;
     display: block;
 }
 .kreisinhalt {
     padding-top: 600px;
 }
-
-.introText {
-    text-align: right;
-    width: 30%;
-    margin-left: auto;
-    padding-right: 80px;
-    margin-top: -50px;
-}
 .kreisinhalt h1 {
-font-size: 150px;
-color: white;
-font-family: sans-serif;
+    position: absolute;
+    font-size: 200px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    top: 5px;
+    left: 575px;
 }
+.kreisinhalt h2 {
+    position: absolute;
+    font-size: 90px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    top: 100px;
+    right: 500px;
+}
+.introText {
+    position: absolute;
+    text-align: left;
+    width: 27%;
+    font-size: 15px;
+    color: white;
+    top: 265px;
+    right: 550px;
+}
+.logo {
+    opacity: 50%;
+    position: absolute;
+    top: 450px;
+    left: 950px;
+}
+.logo:hover {
+    opacity: 100%;
+}
+
 body{
     font-family: sans-serif;
     background-image: url("bg.png");
@@ -36,9 +61,10 @@ h1 {
 }
 h2 {
     text-decoration: none;
-    font-size: medium;
+    font-size: 30px;
     font-weight: lighter;
     color: black;
+    
 }
 h1, h2, p {
     text-align: center;
@@ -48,7 +74,7 @@ h1, h2, p {
 ul {
     list-style-type: none;
     top: 0px;
-    right: 10px;
+    right: 50px;
     margin: 0px;
     padding: 0px;
     overflow: hidden;

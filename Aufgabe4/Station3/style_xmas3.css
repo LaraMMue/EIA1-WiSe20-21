@@ -1,0 +1,69 @@
+body {
+    background-image: url(bg3.png);
+}
+
+.XmasKarte {
+    background-image: url("wrapperbg3.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+.XmasKartenInhalt h1 {
+    position: relative;
+    left: 60px;
+    top: 50px;
+    color: white;
+}
+
+.Stern1 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 70px;
+    top: 150px;
+}
+
+.Stern1:hover {
+    content: url("stern_hover.png");
+}
+
+.Stern2 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 230px;
+    top: 250px
+}
+
+.Stern2:hover {
+    content: url("stern_hover.png");
+}
+
+.Stern3 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.Stern3:hover {
+    content: url("stern_hover.png");
+}
+
+.Stern4 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    right: 150px;
+    bottom: 200px;
+}
+
+.Stern4:hover {
+    content: url("stern_hover.png")
+}

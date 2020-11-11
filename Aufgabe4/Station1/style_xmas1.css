@@ -1,8 +1,41 @@
-div {
-    background-color: red;
+body {
+    background-image: url("bg.png");
+    background-attachment: fixed;
+}
+.XmasKarte {
+    background-image: url("wrapperbg.png");
+    width: 600px;
+    height: 400px;
     position: absolute;
     left: 50%;
     top: 50%;
-    height: 50px;
-    width: 50px;
+    margin-left: -300px;
+    margin-top: -200px;
+
+}
+
+.XmasKartenInhalt h1 {
+    position: relative;
+    left: 60px;
+    top: 50px;
+    color: white;
+}
+.XmasKartenInhalt p {
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 90px;
+}
+.Busch {
+    position: absolute;
+    width: 222px;
+    height: 179px;
+    left: -75px;
+    top: -62px;
+    z-index: +1;
+}
+.Pinguin {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
 }

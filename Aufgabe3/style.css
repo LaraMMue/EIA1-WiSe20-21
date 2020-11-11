@@ -1,3 +1,6 @@
+body {
+    margin: 0 auto;
+}
 .kreis {
     background: skyblue;
     border-radius: 50%;

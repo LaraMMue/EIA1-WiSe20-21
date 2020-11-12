@@ -1,0 +1,45 @@
+body {
+    background-image: url("bg5.png");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.XmasKarte {
+    background-image: url("wrapperbg5.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+.XmasKartenInhalt h1 {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+}
+
+.formular {
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+#fname {
+    height: 20px;
+}
+
+#message {
+    width: 200px;
+    height: 50px;
+}
+
+#radio {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+

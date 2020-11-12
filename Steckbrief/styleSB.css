@@ -1,0 +1,14 @@
+body {
+	font-family: arial;
+	font-size: small;
+	background-color: thistle;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: royalblue;
+}

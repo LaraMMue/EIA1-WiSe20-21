@@ -1,0 +1,65 @@
+body {
+    background-image: url("bg6.png");
+}
+
+.XmasKarte {
+    background-image: url("wrapperbg6.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+.XmasKartenInhalt h1 {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.column1 {
+    width: 240px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    text-align: justify;
+}
+
+.column2 {
+    width: 240px;
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    text-align: justify;
+}
+
+.column3 {
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    text-align: justify;
+}
+
+.column4 {
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    text-align: justify;
+}
+
+.column5 {
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    text-align: justify;
+}

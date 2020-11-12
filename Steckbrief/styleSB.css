@@ -1,14 +1,16 @@
 body {
 	font-family: arial;
 	font-size: small;
-	background-color: thistle;
+    background-color: darkslateblue;
+    color: white;
 }
 
 a {
-    color: darkblue;
+    color: thistle;
     text-decoration: none;
 }
 
 a:hover {
-    color: royalblue;
+    color: aquamarine;
 }
+ 

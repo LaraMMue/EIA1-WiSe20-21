@@ -1,0 +1,49 @@
+body {
+    background-image: url("bg4.png");
+    color: white;
+}
+
+@font-face {
+    font-family: 'angelinyregular';
+    src: url("fonts/angeliny-regular-webfont.svg") format('svg'),
+         url("fonts/angeliny-regular-webfont.ttf") format('truetype'),
+         url("fonts/angeliny-regular-webfont.woff") format('woff'),
+         url("fonts/angeliny-regular-webfont.woff2") format('woff2'),
+         url("fonts/Angeliny-Regular.otf") format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+
+.XmasKarte {
+    background-image: url("wrapperbg4.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+
+}
+
+.XmasKartenInhalt h1 {
+    font-family: 'angelinyregular';
+    font-size: 110px;
+    font-weight: lighter;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+}
+
+.XmasKartenInhalt p {
+    color: white;
+    font-family: 'angelinyregular';
+    font-size: 45px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 450px;
+
+}

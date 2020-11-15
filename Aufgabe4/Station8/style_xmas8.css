@@ -1,0 +1,29 @@
+body {
+    background-image: url("bg8.png");
+}
+
+.XmasKarte {
+    background-image: url("wrapperbg8.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+
+}
+
+.video {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+
+}
+
+.Banderole {
+    z-index: +1;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

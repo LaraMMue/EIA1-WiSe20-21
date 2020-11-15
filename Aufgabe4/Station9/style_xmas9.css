@@ -1,0 +1,61 @@
+body {
+    background-image: url("bg9.png");
+}
+
+.XmasKarte {
+    background-image: url("wrapperbg9.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+.XmasKartenInhalt h1 {
+    position: relative;
+    left: 60px;
+    top: 50px;
+    color: white;
+}
+
+.XmasKartenInhalt p {
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 90px;
+}
+
+.Banderole {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.Schnee1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 100px;
+    animation-name: Schneefall;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.Schnee2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 100px;
+    animation-name: Schneefall;
+    animation-duration: 6s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Schneefall {
+    from {top: 0px;}
+    to {top: 360px;}
+}

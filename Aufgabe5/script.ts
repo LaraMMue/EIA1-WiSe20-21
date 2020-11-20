@@ -36,34 +36,34 @@ var EmissionGes: number = Europe18 + nAmerica18 + sAmerica18 + Africa18 + Asia18
 // Berechnungen
 
 /* Europa */
-var EuropeProzentWelt : number = ((Europe18/EmissionGes)*100).toFixed(2);
-var EuropeVerglProzent : number = (((Europe18/Europe08)-1)*100).toFixed(2);
-var EuropeVerglZahl: number = (Europe18-Europe08).toFixed(2);
+var EuropeProzentWelt : string = ((Europe18/EmissionGes)*100).toFixed(2);
+var EuropeVerglProzent : string = (((Europe18/Europe08)-1)*100).toFixed(2);
+var EuropeVerglZahl: string = (Europe18-Europe08).toFixed(2);
 
 /* Nordamerika */
-var nAmericaProzentWelt : number = ((nAmerica18/EmissionGes)*100).toFixed(2);
-var nAmericaVerglProzent : number = (((nAmerica18/nAmerica08)-1)*100).toFixed(2);
-var nAmericaVerglZahl : number = (nAmerica18-nAmerica08).toFixed(2);
+var nAmericaProzentWelt : string = ((nAmerica18/EmissionGes)*100).toFixed(2);
+var nAmericaVerglProzent : string = (((nAmerica18/nAmerica08)-1)*100).toFixed(2);
+var nAmericaVerglZahl : string = (nAmerica18-nAmerica08).toFixed(2);
 
 /* Südamerika */
-var sAmericaProzentWelt: number = ((sAmerica18/EmissionGes)*100).toFixed(2);
-var sAmericaVerglProzent: number = (((sAmerica18/sAmerica08)-1)*100).toFixed(2);
-var sAmericaVerglZahl: number = (sAmerica18-sAmerica08).toFixed(2);
+var sAmericaProzentWelt: string = ((sAmerica18/EmissionGes)*100).toFixed(2);
+var sAmericaVerglProzent: string = (((sAmerica18/sAmerica08)-1)*100).toFixed(2);
+var sAmericaVerglZahl: string = (sAmerica18-sAmerica08).toFixed(2);
 
 /* Afrika */
-var AfricaProzentWelt: number = ((Africa18/EmissionGes)*100).toFixed(2);
-var AfricaVerglProzent: number = (((Africa18/Africa08)-1)*100).toFixed(2);
-var AfricaVerglZahl: number = (Africa18-Africa08).toFixed(2);
+var AfricaProzentWelt: string = ((Africa18/EmissionGes)*100).toFixed(2);
+var AfricaVerglProzent: string = (((Africa18/Africa08)-1)*100).toFixed(2);
+var AfricaVerglZahl: string = (Africa18-Africa08).toFixed(2);
 
 /* Asien */
-var AsiaProzentWelt: number = ((Asia18/EmissionGes)*100).toFixed(2);
-var AsiaVerglProzent: number = (((Asia18/Asia08)-1)*100).toFixed(2);
-var AsiaVerglZahl: number = (Asia18-Asia08).toFixed(2);
+var AsiaProzentWelt: string = ((Asia18/EmissionGes)*100).toFixed(2);
+var AsiaVerglProzent: string = (((Asia18/Asia08)-1)*100).toFixed(2);
+var AsiaVerglZahl: string = (Asia18-Asia08).toFixed(2);
 
 /* Australien */
-var AustraliaProzentWelt: number = ((Australia18/EmissionGes)*100).toFixed(2);
-var AustraliaVerglProzent: number = (((Australia18/Australia08)-1)*100).toFixed(2);
-var AustraliaVerglZahl: number = (Australia18-Australia08).toFixed(2);
+var AustraliaProzentWelt: string = ((Australia18/EmissionGes)*100).toFixed(2);
+var AustraliaVerglProzent: string = (((Australia18/Australia08)-1)*100).toFixed(2);
+var AustraliaVerglZahl: string = (Australia18-Australia08).toFixed(2);
 
 
 

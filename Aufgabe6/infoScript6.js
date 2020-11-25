@@ -85,6 +85,7 @@ function Africa() {
     document.getElementById("emissionAbsolute").innerHTML = Africa18 + "kg CO2";
     document.getElementById("emissionRelative").innerHTML = AfricaProzentWelt + "%";
     document.getElementById("growthRatePercent").innerHTML = AfricaVerglProzent + "%";
+    document.getElementById("growthRateAbsolute").innerHTML = AfricaVerglZahl + "kg CO2";
     document.querySelector(".chart").setAttribute("style", "height:" + AfricaProzentWelt + "%");
 }
 document.querySelector(".africa").addEventListener('click', Africa);

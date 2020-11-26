@@ -13,7 +13,7 @@ var Africa08 = 1028;
 var Africa18 = 1235.5;
 /* Asien */
 var Asia08 = 12954.7;
-var Asia18 = 16274.7;
+var Asia18 = 16274.1;
 /* Australien */
 var Australia08 = 1993;
 var Australia18 = 2100.5;

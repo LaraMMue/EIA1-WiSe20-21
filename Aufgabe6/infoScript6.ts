@@ -22,7 +22,7 @@ var Africa18: number = 1235.5;
 /* Asien */
 
 var Asia08: number = 12954.7;
-var Asia18: number = 16274.7; 
+var Asia18: number = 16274.1; 
 
 /* Australien */
 

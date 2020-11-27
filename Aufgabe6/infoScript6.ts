@@ -43,7 +43,6 @@ function continentValues(continent:string, wert08:number, wert18:number) {
     document.querySelector("#emissionRelative").innerHTML= ((wert18/EmissionGes)*100).toFixed(2) + "%";
     document.querySelector("#growthRatePercent").innerHTML= (((wert18/wert08)-1)*100).toFixed(2) + "%";
     document.querySelector("#growthRateAbsolute").innerHTML= (wert18-wert08).toFixed(2) + "kg CO2";
-
     document.querySelector(".chart").setAttribute("style", "height:" + ((wert18/EmissionGes)*100) + "%");
 }
 

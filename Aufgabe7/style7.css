@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.drumpad {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+}
+
+.drumpad div {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    display: flex;
+}
+
+.pad1, .pad2, .pad3 {
+    background: radial-gradient(#8dc5fd,#168bff);
+}
+
+.pad1:active, .pad2:active, .pad3:active {
+    background: radial-gradient(#edf6ff,#55aaff);
+}
+
+.pad4, .pad5, .pad6, .pad7 {
+    background: radial-gradient(#ff7cc8, #ff21cf);
+}
+
+.pad4:active, .pad5:active, .pad6:active, .pad7:active {
+    background: radial-gradient(#ffdcf0, #ff54da);
+}
+
+.pad8, .pad9 {
+    background: radial-gradient(#ffc183, #ff8f1f);
+}
+
+.pad8:active, .pad9:active {
+    background: radial-gradient(#ffefe1, #ffb060);
+}
+
+.playbutton {
+    position: absolute;
+    transform: translate(120%, 340%);
+}

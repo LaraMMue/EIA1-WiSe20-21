@@ -1,5 +1,6 @@
 body {
-    background-image: url("winterbild.jpg");
+    background-image: url("winterbild.JPG");
+    background-attachment: fixed;
     background-size: 100%;
     justify-content: center;
     align-items: center;

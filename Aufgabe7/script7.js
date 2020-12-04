@@ -6,7 +6,7 @@ sound[2] = new Audio('snare.mp3');
 sound[3] = new Audio('A.mp3');
 sound[4] = new Audio('C.mp3');
 sound[5] = new Audio('F.mp3');
-sound[6] = new Audio('A.mp3');
+sound[6] = new Audio('G.mp3');
 sound[7] = new Audio('laugh-1.mp3');
 sound[8] = new Audio('laugh-2.mp3');
 /* Funktion Drum Pad*/

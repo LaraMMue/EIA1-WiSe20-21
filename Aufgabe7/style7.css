@@ -41,10 +41,16 @@ body {
 }
 
 .pad8:active, .pad9:active {
-    background: radial-gradient(#ffefe1, #ffb060);
+    background: radial-gradient(#ffefe1, #fda852);
 }
 
 .playbutton {
     position: absolute;
     transform: translate(120%, 340%);
+    opacity: 50%;
+}
+
+.playbutton:hover {
+    filter: drop-shadow(0 0 20px #14b5ff);
+    opacity: 100%;
 }

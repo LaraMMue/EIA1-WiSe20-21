@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: url("winterbild.jpg");
+    background-size: 100%;
     justify-content: center;
     align-items: center;
 }

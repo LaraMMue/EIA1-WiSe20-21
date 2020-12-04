@@ -41,12 +41,14 @@ document.querySelector('.pad8').addEventListener('click', function () {
 document.querySelector('.pad9').addEventListener('click', function () {
     playSample(8);
 });
-/* Funktion Drum Machine */
+/* Variablen Drum Machine */
+var sequence = ['hihat.mp3', 'kick.mp3', 'snare.mp3', 'hihat.mp3', 'kick.mp3', 'snare.mp3', 'hihat.mp3', 'kick.mp3', 'snare.mp3',];
+var indexOfSequence = 0;
 function Beat() {
     setInterval(function () {
-        sound[0].play();
-        sound[1].play();
-        sound[2].play();
+        var sound = new Audio(sequence[indexOfSequence]);
+        sound.play();
+        indexOfSequence = indexOfSequence + 1;
     }, 500);
 }
 document.querySelector('.playbutton').addEventListener('click', Beat);

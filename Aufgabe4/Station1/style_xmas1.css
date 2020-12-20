@@ -17,7 +17,7 @@ body {
 .XmasKartenInhalt h1 {
     position: relative;
     left: 60px;
-    top: 50px;
+    top: 70px;
     color: white;
 }
 .XmasKartenInhalt p {
@@ -25,6 +25,7 @@ body {
     position: relative;
     left: 60px;
     top: 90px;
+    font-size: 22px;
 }
 .Busch {
     position: absolute;

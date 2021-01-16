@@ -131,6 +131,20 @@ function drawListToDOM(): void {
 function updateCounter(): void {
     counterDOMElement.innerHTML = toDoListe.length + " in total";
 
+    let open: number = 0;
+    let done: number = 0;
+    for (let i: number = 0; i < toDoListe.length; i++) {
+        if (toDoListe[i].todosChecked == false) {
+            open++;
+        }
+        else {
+            done++;
+        }
+        openCounterDOMElement.innerHTML = open + " open";
+        doneCounterDOMElement.innerHTML = done + " done";
+    }
+
+
 }
 
 /**
@@ -209,3 +223,46 @@ function deleteTodo(index: number): void {
      */
     drawListToDOM();
 }
+
+declare var Artyom: any;
+
+window.addEventListener("load", function(): void {
+    const artyom: any = new Artyom();
+
+    artyom.addCommands({
+        indexes: ["erstelle Aufgabe *"],
+        smart: true,
+        action: function(i: any, wildcard: string): void {
+            console.log("Neue Task: " + wildcard);
+            toDoListe.unshift({
+                todosText: wildcard,
+                todosChecked: false
+            });
+            drawListToDOM();
+        }
+    });
+
+    function startVoiceCommands(): void {
+        artyom.fatality();
+
+        setTimeout(
+            function(): void {
+                artyom.initialize({
+                    lang: "de-DE",
+                    continuous: true,
+                    debug: true,
+                    listen: true
+                }).then(function(): void {
+                    console.log("Speak!");
+                });
+            },
+            250);
+    }
+
+    function stopVoiceCommands(): void {
+        artyom.fatality();
+    }
+
+    document.querySelector("#startVC").addEventListener("click", startVoiceCommands);
+    document.querySelector("#stopVC").addEventListener("click", stopVoiceCommands);
+});

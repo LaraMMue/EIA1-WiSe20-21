@@ -110,6 +110,18 @@ function drawListToDOM() {
 }
 function updateCounter() {
     counterDOMElement.innerHTML = toDoListe.length + " in total";
+    var open = 0;
+    var done = 0;
+    for (var i = 0; i < toDoListe.length; i++) {
+        if (toDoListe[i].todosChecked == false) {
+            open++;
+        }
+        else {
+            done++;
+        }
+        openCounterDOMElement.innerHTML = open + " open";
+        doneCounterDOMElement.innerHTML = done + " done";
+    }
 }
 /**
  * Ein neues ToDo wird folgendermaßen erstellt:
@@ -182,4 +194,37 @@ function deleteTodo(index) {
      */
     drawListToDOM();
 }
+window.addEventListener("load", function () {
+    var artyom = new Artyom();
+    artyom.addCommands({
+        indexes: ["erstelle Aufgabe *"],
+        smart: true,
+        action: function (i, wildcard) {
+            console.log("Neue Task: " + wildcard);
+            toDoListe.unshift({
+                todosText: wildcard,
+                todosChecked: false
+            });
+            drawListToDOM();
+        }
+    });
+    function startVoiceCommands() {
+        artyom.fatality();
+        setTimeout(function () {
+            artyom.initialize({
+                lang: "de-DE",
+                continuous: true,
+                debug: true,
+                listen: true
+            }).then(function () {
+                console.log("Speak!");
+            });
+        }, 250);
+    }
+    function stopVoiceCommands() {
+        artyom.fatality();
+    }
+    document.querySelector("#startVC").addEventListener("click", startVoiceCommands);
+    document.querySelector("#stopVC").addEventListener("click", stopVoiceCommands);
+});
 //# sourceMappingURL=todo10.js.map
